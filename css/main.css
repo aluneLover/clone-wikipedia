@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+p {
+    color: #54595d;
+}
+header {
+    width: 100%;
+    height: 560px;
+    border-bottom: 1px solid #a2a9b1;
+}
+header .title {
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+header .title p {
+    font-size: 14px;
+}
+header .logo-and-idioms {
+    width: 100%;
+    height: 350px;
+}
+header .logo-and-idioms img {
+    position: absolute;
+    top: 220px;
+    left: 42%;
+    width: 220px;
+}
+header .logo-and-idioms div {
+    width: 140px;
+    height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+header .logo-and-idioms div p {
+    margin: 0;
+}
+header .logo-and-idioms p:nth-child(1) {
+    font-size: 15px;
+    color: #36c;
+    margin-top: 2px;
+}
+header .logo-and-idioms div:hover p:nth-child(1) {
+    text-decoration: underline;
+    
+}
+header .logo-and-idioms div:hover {
+    background-color: #eaecf0; 
+}
+header .logo-and-idioms p:nth-child(2) {
+    font-size: 12px;
+    color: #54595d;
+    margin-top: 10px;
+}
+header .logo-and-idioms .div-1 {
+    position: absolute;
+    top: 135px;
+    left: 465px;
+}
+header .logo-and-idioms .div-2 {
+    position: absolute;
+    top: 205px;
+    left: 418px;
+}
+header .logo-and-idioms .div-3 {
+    position: absolute;
+    top: 275px;
+    left: 405px;
+}
+header .logo-and-idioms .div-4 {
+    position: absolute;
+    top: 345px;
+    left: 415px;
+}
+header .logo-and-idioms .div-5 {
+    position: absolute;
+    top: 415px;
+    left: 460px;
+}
+header .logo-and-idioms .div-6 {
+    position: absolute;
+    top: 135px;
+    left: 740px;
+}
+header .logo-and-idioms .div-7 {
+    position: absolute;
+    top: 205px;
+    left: 790px;
+}
+header .logo-and-idioms .div-8 {
+    position: absolute;
+    top: 275px;
+    left: 800px;
+}
+header .logo-and-idioms .div-9 {
+    position: absolute;
+    top: 345px;
+    left: 790px;
+}
+header .logo-and-idioms .div-10 {
+    position: absolute;
+    top: 415px;
+    left: 740px;
+}
+header .barra-de-busqueda {
+    display: flex;
+    justify-content: center;
+}
+header .container-search {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #a2a9b1;
+    display: flex;
+    border-radius: 1px;
+}
+header .container-search:hover {
+    border-top: 1px solid #5f6368;
+    border-left: 1px solid #5f6368;
+    border-bottom: 1px solid #5f6368;
+}
+header .container-search input {
+    font-size: 16px;
+    width: 360px;
+    border: none;
+    outline: none;
+}
+header .container-search .cuadrito {
+    width: 35px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+header .container-search .cuadrito:hover {
+    background-color: #eaecf0;
+}
+header .container-search .cuadrito img {
+    width: 18px;
+    height: 18px;
+}
+header .container-search .cuadrito p {
+    color: #54595d;
+    font-size: 12px;
+}
+header .buttom-search {
+    width: 60px;
+    height: 42px;
+    background-color: #36c;
+    cursor: pointer;
+}
+header .buttom-search img {
+    height: 30px;
+    width: 30px;
+    margin: 5px 0 0 15px;
+}
+header .languaje {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+header .languaje p {
+    color: #36c;
+}
+header .languaje .container-languaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+}
+header .languaje .container-languaje:hover {
+    background-color: white;
+
+}
+header .languaje .container-languaje img {
+    width: 20px;
+    height: 20px;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+aside {
+    width: 30vw;
+    padding: 80px;
+}
+aside .about-wiki {
+    display: flex;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+aside .about-wiki svg {
+    width: 100px;
+    height: 60px;
+
+}
+
+aside .about-wiki a {
+    color: #36c;
+}
+aside .about-wiki a:hover {
+    text-decoration: underline;
+}
+aside .download-wiki {
+    display: flex;
+    background-color: #eaecf0;
+    padding-top: 10px;
+}
+aside .download-wiki svg {
+    width: 120px;
+    height: 50px;
+}
+aside .download-wiki a {
+    color: #36c;
+}
+aside .download-wiki a:hover {
+    text-decoration: underline;
+}
+.main-container {
+    width: 70vw;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.main-container  > div {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+}
+.main-container > div:hover {
+    background-color: #eaecf0;
+}
+.main-container div svg {
+    margin-right: 8px;
+}
+.main-container div img {
+    margin-right: 8px;
+}
+.main-container div div p:nth-child(1) {
+    color: #36c;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #a2a9b1;
+}
+footer a {
+    color: #36c;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    margin-right: 20px;
+}
+footer p {
+    margin-right: 5px;
+}
